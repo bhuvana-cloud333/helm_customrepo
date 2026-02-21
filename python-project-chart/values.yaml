@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: bhuvaneswari333/python-project
   pullPolicy: IfNotPresent
-  tag: "l"
+  tag: "latest"
 
 service:
   type: ClusterIP
